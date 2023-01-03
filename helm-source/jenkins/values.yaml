@@ -28,3 +28,8 @@ autoscaling:
   minReplicas: 1
   maxReplicas: 20
   targetCPUUtilizationPercentage: 75
+
+master_port: 8080
+master_targetport: 8080
+slave_port: 50000
+slave_targetport: 50000
