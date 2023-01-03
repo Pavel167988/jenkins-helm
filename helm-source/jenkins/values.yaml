@@ -14,7 +14,6 @@ ingress:
   enabled: enabled
 host: jenkins.k8s-12.sa
 ingress_port: 8080
-main_host_url: http://jenkins.k8s-12.sa/
 
 
 requests_cpu: 3000m
