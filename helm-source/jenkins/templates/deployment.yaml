@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: {{ .Values.name }}
-          image: {{ .Values.image }}
+          image: pppp.lib
           imagePullPolicy: IfNotPresent
           env:
             - name: JAVA_OPTS
